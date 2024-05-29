@@ -1,0 +1,1 @@
+gunicorn app:app & chmod a+x start; ./start
