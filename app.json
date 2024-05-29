@@ -1,6 +1,6 @@
 {
     "env": {
-        "API_ID": {"description": "10469718"},
+        "API_ID": {"description": 10469718},
         "API_HASH": {"description": "186b05eda417c68ec590d67cd2603f39"},
         "DATABASE_URL": {"description": "mongodb+srv://tanjiro:@#tanjiro@cluster0.qzdl27q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"},
         "LOG_CHANNEL_ID": {"description": "-4151707365"},
