@@ -1,18 +1,18 @@
 {
     "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org"},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org"},
-        "DATABASE_URL": {"description": "Mongodb url from https://cloud.mongodb.com/"},
-        "LOG_CHANNEL_ID": {"description": "Telegram Log Channel ID"},
-        "PREF_BRANCH": {"value": "master", "description": "Branch of userge repo [master, beta, alpha], Keep it default."},
+        "API_ID": {"description": 10469718},
+        "API_HASH": {"description": "186b05eda417c68ec590d67cd2603f39"},
+        "DATABASE_URL": {"description": "mongodb+srv://tanjiro:@#tanjiro@cluster0.qvm3c5f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"},
+        "LOG_CHANNEL_ID": {"description": "-4151707365"},
+        "PREF_BRANCH": {"value": "Render", "description": "Branch of userge repo [master, beta, alpha], Keep it default."},
         "SESSION_STRING": {
             "description": "[USER MODE] - Get this using `bash genStr`",
             "required": false},
         "BOT_TOKEN": {
-            "description": "[BOT MODE] - Get this from https://t.me/botfather",
+            "description": "7318244032:AAGk9gEyso4-QkN2dmr562MARtHP010k_S4",
             "required": false},
         "OWNER_ID": {
-            "description": "[BOT MODE] - Your user_id",
+            "description": "5925068534",
             "required": false},
         "HEROKU_APP_NAME": {
             "description": "given app name to the heroku app",
@@ -21,15 +21,12 @@
             "description": "get a Heroku API key from http://dashboard.heroku.com/account",
             "required": false}
     },
+    "stack": "heroku-20",
     "buildpacks": [
-        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
         {"url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git"},
-        {"url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"},
-        {"url": "https://github.com/rking32/heroku-buildpack-google-chrome"},
-        {"url": "https://github.com/rking32/heroku-buildpack-chromedriver"},
         {"url": "https://github.com/chrismytton/heroku-buildpack-jq.git"},
+        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
         {"url": "https://github.com/heroku/heroku-buildpack-apt.git"},
-        {"url": "https://github.com/subinps/heroku-buildpack-nodejs"},
         {"url": "heroku/python"}
     ]
 }
